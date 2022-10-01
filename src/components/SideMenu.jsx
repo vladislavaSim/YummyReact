@@ -12,7 +12,6 @@ const SideMenu = () => {
                 <li className="food-type" id="European">European</li>
                 <li className="food-type" id="All">All</li>
             </ul>
-            <img src='./img/21.jpg'/>
         </div>
         </main>
     );
