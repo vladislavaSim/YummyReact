@@ -4,10 +4,10 @@ const Footer = () => {
     return (
         <footer>
             <div className="contacts">
-                <p>Peremohy Steeet, 42 <br /> Kyiv City, Ukraine </p>
+                <p>Peremohy Steeet, 58 <br /> Dnipro City, Ukraine </p>
                 <p>©Yummy Place, 2022</p>
             </div>
-            <p>Tel: +380954125888</p>
+            <p>Tel: +380954125842</p>
         </footer>
     );
 }
