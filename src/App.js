@@ -1,11 +1,20 @@
 import './App.css';
+import Header from "./components/Header";
+import SideMenu from "./components/SideMenu";
+import Title from "./components/Title";
+import ModalContainer from "./components/ModalContainer";
+import Container from "./components/Container";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/*<img src={logo} className="App-logo" alt="logo" />*/}
-      </header>
+      <Header />
+      <SideMenu />
+      <Title />
+       <ModalContainer />
+       <Container />
+      <Footer />
     </div>
   );
 }
