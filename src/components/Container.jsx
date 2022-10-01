@@ -36,8 +36,6 @@ let arr = [
     {id: 32, name: 'Fried Chicken Salad', price: 145, category: 'Salads', img: 32},
     {id: 33, name: 'Caesar', price: 140, category: 'Salads', img: 33}
 ]
-
-console.log(arr)
 const Container = () => {
     const [foodArr, setFoodArr] = useState(arr)
 
@@ -50,7 +48,7 @@ const Container = () => {
             />
         })
     }
-    console.log(showCards())
+
 let array = showCards()
     return (
         <div className="container">
