@@ -1,8 +1,15 @@
 import React from 'react';
+import { useState } from 'react';
 
 const ModalContainer = () => {
+    const [isDesplayed, setIsDesplayed] = useState(false)
+
+    function toggleDisplay() {
+        return isDesplayed ? 'none' : 'block' 
+    }
     return (
-        <section className="modal-container">
+        <section className="modal-container" 
+        style={{display: toggleDisplay}}>
             <div className="modal-box">
                 <div className="modal-header">Cart
                     <button className="close-btn">X</button>
