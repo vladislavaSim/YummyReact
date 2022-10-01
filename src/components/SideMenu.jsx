@@ -2,6 +2,7 @@ import React from 'react';
 
 const SideMenu = () => {
     return (
+        <main>
         <div className="sidebar">
             <ul className="types-list">
                 <li className="food-type" id="Breakfasts">Breakfasts</li>
@@ -11,7 +12,9 @@ const SideMenu = () => {
                 <li className="food-type" id="European">European</li>
                 <li className="food-type" id="All">All</li>
             </ul>
+            <img src='./img/21.jpg'/>
         </div>
+        </main>
     );
 };
 
